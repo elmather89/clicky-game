@@ -20,9 +20,9 @@ function Card(props) {
             </li>
           </ul>
         </div>
-        {/* <span onClick={() => props.cardCounter(props.id)} className="remove">
+        <span className="remove" onClick={props.handleClick}>
           𝘅
-        </span> */}
+        </span>
       </div>
     );
   }

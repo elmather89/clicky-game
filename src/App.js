@@ -8,24 +8,21 @@ import "./App.css";
 class App extends Component {
 
   state = { 
-    dogs, 
-    count: 0 
+    dogs,
+    clicked: false
   };
 
-  handleClick = event => {
+  handleClick = id => {
+    this.setState({ "id.clicked": true });
 
-    const cardCounter = event.target.attributes.getNamedItem("count").value;
-    // const newState = { ...this.state };
-
-    if (cardCounter !== 0) {
-      console.log("clicked " + cardCounter);
-    }
-    this.setState({ count: this.state.count + 1 });
+    // const dogs = this.state.dogs.filter(dog => dog.id !== clicked);
+    // this.setState({ dogs });
+    // console.log(this.dogs);
   };
 
   // removeDog = id => {
   //   const dogs = this.state.dogs.filter(dog => dog.id !== id);
-  //   this.setState({ dogs });
+  //   this.setState(this.id);
   // };
 
   render() {
@@ -34,7 +31,7 @@ class App extends Component {
         <Title>Dogs Throughout Art History!</Title>
         {this.state.dogs.map(dog => (
           <Card
-            removeDog={this.removeDog}
+          handleClick={this.handleClick}
             id={dog.id}
             key={dog.id}
             title={dog.title}
