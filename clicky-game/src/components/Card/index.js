@@ -5,24 +5,24 @@ function Card(props) {
     return (
       <div className="card">
         <div className="img-container">
-          <img alt={props.name} src={props.image} />
+          <img alt={props.title} src={props.image} />
         </div>
         <div className="content">
           <ul>
             <li>
-              <strong>Name:</strong> {props.name}
+              <strong>Title:</strong> {props.title}
             </li>
             <li>
-              <strong>Occupation:</strong> {props.occupation}
+              <strong>Artist:</strong> {props.artist}
             </li>
             <li>
-              <strong>Location:</strong> {props.location}
+              <strong>Origin:</strong> {props.origin}
             </li>
           </ul>
         </div>
-        <span onClick={() => props.removeDog(props.id)} className="remove">
+        {/* <span onClick={() => props.cardCounter(props.id)} className="remove">
           𝘅
-        </span>
+        </span> */}
       </div>
     );
   }
