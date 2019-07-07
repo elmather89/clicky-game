@@ -15,7 +15,7 @@ class App extends Component {
   handleClick = event => {
 
     const cardCounter = event.target.attributes.getNamedItem("count").value;
-    const newState = { ...this.state };
+    // const newState = { ...this.state };
 
     if (cardCounter !== 0) {
       console.log("clicked " + cardCounter);
