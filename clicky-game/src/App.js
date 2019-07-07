@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Card from "./components/Card";
+import Title from "./components/Title";
+import Wrapper from "./components/Wrapper";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+  state = { dogs };
+
+  removeDog = id => {
+    const dogs = this.state.dogs.filter(dog => friend.id !== id);
+    this.setState({ dogs });
+  };
+
+  render() {
+    return (
+      <Wrapper>
+        <Title>All the dogs!</Title>
+        <Card
+          removeDog={this.removeDog}
+          id={friend.id}
+          key={friend.id}
+          name={friend.name}
+          image={friend.image}
+          occupation={friend.occupation}
+          location={friend.location}
+        />
+      </Wrapper>
+    );
+  };
+  
 }
 
 export default App;
