@@ -4,83 +4,95 @@
         "title": "Cave Canem",
         "artist": "unknown",
         "image": "http://penelope.uchicago.edu/~grout/encyclopaedia_romana/miscellanea/canes/canes.jpg",
-        "origin": "House of the Tragic Poet, Pompeii" 
+        "origin": "House of the Tragic Poet, Pompeii",
+        "clicked": false
     },
     {
         "id": 2,
         "title": "Marble statue of a pair of dogs, 1 AD – 199 AD.",
         "artist": "unknown",
         "image": "https://mymodernmet.com/wp/wp-content/uploads/2017/07/dog-art-1.jpg",
-        "origin": "Civita Lavinia, Italy"
+        "origin": "Civita Lavinia, Italy",
+        "clicked": false
     },
     {
         "id": 3,
         "title": "Portrait of a Noblewoman",
         "artist": "Lavinia Fontana",
         "image": "https://mymodernmet.com/wp/wp-content/uploads/2017/07/dog-art-3.png",
-        "origin": "Bologna, Italy"
+        "origin": "Bologna, Italy",
+        "clicked": false
     },
     {
         "id": 4,
         "title": "The Hunters in the Snow",
         "artist": "Pieter Bruegel the Elder",
         "image": "https://mymodernmet.com/wp/wp-content/uploads/2017/07/dog-art-4.jpg",
-        "origin": "Belgium"
+        "origin": "Belgium",
+        "clicked": false
     },
     {
         "id": 5,
         "title": "Still Life with Three Puppies",
         "artist": "Paul Gauguin",
         "image": "https://mymodernmet.com/wp/wp-content/uploads/2017/07/dog-art-5.jpg",
-        "origin": "France"
+        "origin": "France",
+        "clicked": false
     },
     {
         "id": 6,
         "title": "'A Friend in Need' from the 'Dogs Playing Poker' series",
         "artist": "Cassius Marcellus Coolidge",
         "image": "https://mymodernmet.com/wp/wp-content/uploads/2017/07/dog-art-dogs-playing-poker-Cassius-Marcellus-Coolidge.jpg",
-        "origin": "America"
+        "origin": "America",
+        "clicked": false
     },
     {
         "id": 7,
         "title": "A Dog Resting",
         "artist": "Albrecht Dürer",
         "image": "https://mymodernmet.com/wp/wp-content/uploads/2017/07/dog-art-17.jpg",
-        "origin": "Germany"
+        "origin": "Germany",
+        "clicked": false
     },
     {
         "id": 8,
         "title": "Sleeping Puppy",
         "artist": "Rembrandt Harmensz. van Rijn",
         "image": "https://mymodernmet.com/wp/wp-content/uploads/2017/07/dog-art-14.jpg",
-        "origin": "Netherlands"
+        "origin": "Netherlands",
+        "clicked": false
     },
     {
         "id": 9,
         "title": "Dancing Dogs",
         "artist": "Keith Haring",
         "image": "https://mymodernmet.com/wp/wp-content/uploads/2017/07/dog-art-19.jpg",
-        "origin": "America"
+        "origin": "America",
+        "clicked": false
     },
     {
         "id": 10,
         "title": "A King Charles Spaniel",
         "artist": "Edouard Manet",
         "image": "https://mymodernmet.com/wp/wp-content/uploads/2017/07/dog-art-16.jpg",
-        "origin": "France"
+        "origin": "France",
+        "clicked": false
     },
     {
         "id": 11,
         "title": "Head of a Dog",
         "artist": "Auguste Renoir",
         "image": "https://mymodernmet.com/wp/wp-content/uploads/2017/07/dog-art-15.jpg",
-        "origin": "France"
+        "origin": "France",
+        "clicked": false
     },
     {
         "id": 12,
         "title": "Itzcuintli Dog With Me",
         "artist": "Frida Kahlo",
         "image": "https://mymodernmet.com/wp/wp-content/uploads/2017/07/dog-art-6.jpg",
-        "origin": "Mexico"
+        "origin": "Mexico",
+        "clicked": false
     }
 ]

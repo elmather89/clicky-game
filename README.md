@@ -5,4 +5,4 @@ This is a memory game using React. Try to remember what image you clicked on and
 * React js library
 * Bootstrap css
 
-### See deployed site here: https://elmather89.github.io/clicky-game/
+### See deployed site here: 
